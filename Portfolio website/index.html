@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="Anand.png" type="image/x-icon">
+    <title>Anand Raj</title>
+    <script src="https://kit.fontawesome.com/fbb6c46a74.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Anand.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact" class="btn btn2">Contact Me</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header">
+                <div class="left">
+                    <h1>Hi, I'm <br><span>Anand</span> Raj</h1>
+                    <h6>A passionate competitive programmer and frontend developer, love to collaborate, learn and build
+                        new things</h6>
+                    <a href="#contact" class="btn">Contact me</a>
+                </div>
+                <div class="right">
+                    <img src="AnandDummy.png" alt="Dummy">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!------ section -------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="Anand.png" >
+                </div>
+                <div class="col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A passionate Competitive Programmer & frontend developer from India. I am a B.Tech. 4th year
+                        student of CSE Dept. at IEM,Kolkata. And currently work as Web Developer intern at TXON</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Competitive Programmer</span><br>Do DSA and coding in C++</li>
+                            <li><span>Frontend Developer</span><br>Techs used like HTML,CSS,JavaScript,Tailwind,React
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                             <li><span>Nov,2023 - Current</span><br>C++ Developer at NeuroNexus Innovations</li>
+                            <li><span>May,2023 - Sept, 2023</span><br>Problem Setter at iMocha</li>
+                          
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>B.Tech.(CSE) from IEM,Kolkata</li>
+                            <li><span>2019</span><br>Intermediate from KST College, Biharsharif</li>
+                            <li><span>2017</span><br>Schooling from RPS School, Biharsharif</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span><a href="https://leetcode.com/anand92050/" target="_blank">LeetCode</a></span><br>Solved 600+ Problems & got 2780 rank in Weekly Coding Contest</li>
+                             <li><span><a href="https://codeforces.com/profile/anand92050" target="_blank">Codeforces</a></span><br>Solve 400+ problems (Max Rating:- 1216)</li>
+                            <li><span><a href="https://auth.geeksforgeeks.org/user/anandrajrpsraj3236/practice" target="_blank">GeeksForGeeks</a></span><br>Solved 100+ problems </li>
+                            <li><span><a href="https://www.codechef.com/users/apk92050" target="_blank">CodeChef</a></span><br>3 star(Max Rating:- 1619)</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Awesome Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>DSA/CP</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, vero repellendus! Praesentium
+                        tenetur molestias adipisci optio nisi. Quos ut omnis rem veritatis neque accusamus pariatur
+                        soluta? Quidem enim nostrum ipsa.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, vero repellendus! Praesentium
+                        tenetur molestias adipisci optio nisi. Quos ut omnis rem veritatis neque accusamus pariatur
+                        soluta? Quidem enim nostrum ipsa.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>C++ Programming</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, vero repellendus! Praesentium
+                        tenetur molestias adipisci optio nisi. Quos ut omnis rem veritatis neque accusamus pariatur
+                        soluta? Quidem enim nostrum ipsa.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Project1.png" width="1/4">
+                    <div class="layer">
+                        <h3>Weather Website</h3>
+                        <p>Created a web application that uses open weather map API to fetch weather results.
+•Give weather updates like temperature, wind speed ,humidity and cloud by accepting the name of the
+city.
+</p>
+                        <a href="https://cw-city-weather.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Project3.png">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Simple Calculator which helps to solve maths problem!</p>
+                        <a href="https://avinashchourasia.github.io/TXON_02/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Project2.png">
+                    <div class="layer">
+                        <h3>Password Generator</h3>
+                        <p>Created a password Generator, aims to generate a unique, secure and strong random password for users.
+The password generator is built using Javascript Programming language techniques and algorithm.
+</p>
+                        <a href="https://password-generat-app.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn1">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-titles">Get In Touch</h2>
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>anandraj.iem@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91-9205028192</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/A31AnandRaj1"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/crazy_anandraj/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/anand-raj-888b60205/"><i class="fa-brands fa-linkedin"></i></i></a>
+                    </div>
+                    <a href="Anand_Raj_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" onsubmit=sendEmail(event) reset()>
+                        <input id ="username" type="text" name="Name" placeholder="Your Name" required>
+                        <input id = "emailid" type="email" name="Email" placeholder="Your Email" required>
+                        <textarea id ="usermessage" name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Anand. Made with <i class="fa-solid fa-heart"></i> by Anand Raj</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        const sendEmail = (e)=>
+        {   e.preventDefault();
+             const form = document.forms['submit-to-google-sheet']
+            var msg = document.getElementById("emailid").value    
+            Email.send({
+                SecureToken : "b41ba452-8c16-423d-b589-f5caced40d41",
+                To : 'anandraj.iem@gmail.com',
+                From : document.getElementById("emailid").value,
+                Subject : "Contact with you",
+                Body : "name :" +document.getElementById("username").value+" , message  "+document.getElementById("usermessage").value
+            }).then(
+            message => alert("Send successfully")
+            );
+            form.reset()
+        }
+    </script>
+</body>
+
+</html>
